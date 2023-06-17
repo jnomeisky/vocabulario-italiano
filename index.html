@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            body, input, label, span {
+                font-size: 40px;
+                width: 100%;
+                text-align: center;
+            }
+            #hdnExpectedWord {
+                color: black;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="form">
+            <span id="lblOriginalWord">Palabra</span><br/>
+            <input type="text" id="txtTranslatedWord" /> <br/>
+            <input type="text" id="hdnExpectedWord" disabled/><br/>
+            <span id="lblError" style="display: none;">ERROR!!</span><br/>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+
+    <script type="module" lang="javascript">
+    
+        function getData(url, cb) {
+            fetch(url)
+            .then(response => response.json())
+            .then(result => cb(result));
+        }
+        let words = [];
+
+        getData('https://jnomeisky.github.io/vocabulario-italiano/palabras.json', (data) => { words = data; refreshWord(); });
+
+        function refreshWord() {
+            const rnd = getRandomInt(words.length);
+            const lblOriginalWord = document.getElementById("lblOriginalWord");
+            const txtTranslatedWord = document.getElementById("txtTranslatedWord");
+            const hdnExpectedWord = document.getElementById("hdnExpectedWord");
+            lblOriginalWord.innerText = words[rnd].spa;
+            hdnExpectedWord.value = words[rnd].ita;
+            txtTranslatedWord.value = '';
+        }
+
+        function onSubmit(e) {
+            const lblError = document.getElementById("lblError");
+            if (e.target[0].value === e.target[1].value) {
+                refreshWord();
+                lblError.style = 'display: none;';
+            } else {
+                lblError.style = '';
+            }
+            e.preventDefault();
+        }
+
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+        const form = document.getElementById("form");
+        form.addEventListener('submit', onSubmit);
+        
+    </script>
+
+</html>
