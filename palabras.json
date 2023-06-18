@@ -133,7 +133,7 @@
 {"spa":"empleado","ita":"dipendente"},
 {"spa":"sueldo","ita":"stipendio"},
 {"spa":"ascenso","ita":"promozione"},
-{"spa":"habilidades","ita":"competenze"},
+{"spa":"habilidades laborales","ita":"competenze"},
 {"spa":"vacaciones del trabajo","ita":"ferie"},
 {"spa":"viaje de negocios","ita":"trasferta"},
 {"spa":"perspectiva","ita":"prospettiva"},
@@ -148,7 +148,7 @@
 {"spa":"bigote","ita":"baffi"},
 {"spa":"codo","ita":"gomito"},
 {"spa":"muñeca","ita":"polso"},
-{"spa":"cada dedo de la mano","ita":"pollice - indice - medio - anulare - mignolo"},
+{"spa":"cada dedo de la mano","ita":"pollice,indice,medio,anulare,mignolo"},
 {"spa":"uña","ita":"unghia"},
 {"spa":"palma","ita":"palmo"},
 {"spa":"abdomen / panza","ita":"addome / pancia"},
@@ -294,7 +294,7 @@
 {"spa":"pantuflas","ita":"pantofole"},
 
 
-{"spa":"cabina","ita":"baita"},
+{"spa":"cabina, casa chiquita","ita":"baita"},
 {"spa":"casa de campo","ita":"casale"},
 {"spa":"casita de campo","ita":"cascina/masseria"},
 {"spa":"edificio grande","ita":"palazzo"},
@@ -349,7 +349,7 @@
 
 {"spa":"asiento del conductor o pasajero","ita":"sedile del conducente/passegero"},
 {"spa":"palanca de cambios","ita":"leva del cambio"},
-{"spa":"cambios","ita":"marce"},
+{"spa":"cambios del auto","ita":"marce"},
 {"spa":"embrague","ita":"pedale della frizione"},
 {"spa":"acelerador","ita":"acceleratore"},
 {"spa":"panel","ita":"cruscotto"},
@@ -384,7 +384,6 @@
 {"spa":"paracaídas","ita":"paracadute"},
 {"spa":"globo aerostático","ita":"mongolfiera"},
 {"spa":"submarino","ita":"sottomarino"},
-{"spa":"embarcación con recorrido fijo","ita":"traghetto"},
 {"spa":"cochecito de bebe","ita":"carrozzina/passeggino"},
 {"spa":"silla de ruedas","ita":"sedia a rotelle"},
 {"spa":"teleférico","ita":"funivia"},
