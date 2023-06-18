@@ -6,20 +6,35 @@
                 width: 100%;
                 text-align: center;
             }
-            #hdnExpectedWord {
-                color: black;
-                background-color: black;
-            }
+            
         </style>
+        <script>
+            function onVerRespuesta(e) {
+                const lblExpectedWord = document.getElementById("lblExpectedWord");
+                lblExpectedWord.style.display = '';
+            }
+
+            function onOcultarRespuesta(e) {
+                const lblExpectedWord = document.getElementById("lblExpectedWord");
+                lblExpectedWord.style.display = 'none';
+            }
+        </script>
     </head>
     <body>
         <form id="form">
             <span id="lblOriginalWord">Palabra</span><br/>
             <input type="text" id="txtTranslatedWord" /> <br/>
-            <input type="text" id="hdnExpectedWord" disabled/><br/>
+            <input type="hidden" id="hdnExpectedWord"/><br/>
             <span id="lblError" style="display: none;">ERROR!!</span><br/>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" />
         </form>
+        <br/>
+        <br/>
+        <br/>
+
+        <input type="button" id="btnVerRespuesta" value="Ver respuesta" onmousedown="onVerRespuesta()" onmouseup="onOcultarRespuesta()" /><br/>
+        <span id="lblExpectedWord"></span>
+
     </body>
 
     <script type="module" lang="javascript">
@@ -38,8 +53,10 @@
             const lblOriginalWord = document.getElementById("lblOriginalWord");
             const txtTranslatedWord = document.getElementById("txtTranslatedWord");
             const hdnExpectedWord = document.getElementById("hdnExpectedWord");
+            const lblExpectedWord = document.getElementById("lblExpectedWord");
             lblOriginalWord.innerText = words[rnd].spa;
             hdnExpectedWord.value = words[rnd].ita;
+            lblExpectedWord.innerText = words[rnd].ita;
             txtTranslatedWord.value = '';
         }
 
@@ -60,6 +77,9 @@
 
         const form = document.getElementById("form");
         form.addEventListener('submit', onSubmit);
+
+        const lblExpectedWord = document.getElementById("lblExpectedWord");
+        lblExpectedWord.style.display = 'none';
         
     </script>
 
