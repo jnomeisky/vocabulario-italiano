@@ -62,7 +62,7 @@
 
         function onSubmit(e) {
             const lblError = document.getElementById("lblError");
-            if (e.target[0].value === e.target[1].value) {
+            if (e.target[0].value.trim().toLowerCase() === e.target[1].value) {
                 refreshWord();
                 lblError.style = 'display: none;';
             } else {
