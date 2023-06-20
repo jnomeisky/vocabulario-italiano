@@ -70,7 +70,6 @@
 {"spa":"borrador","ita":"gomma per cancellare"},
 
 
-
 {"spa":"boleto","ita":"biglietto"},
 {"spa":"equipaje","ita":"bagaglio"},
 {"spa":"crucero","ita":"crociera"},
@@ -106,8 +105,6 @@
 {"spa":"propina","ita":"mancia"},
 
 
-
-
 {"spa":"cuenta","ita":"conto"},
 {"spa":"caja de cobro","ita":"cassa"},
 {"spa":"cajero automático","ita":"bancomat"},
@@ -127,8 +124,6 @@
 {"spa":"vuelto","ita":"resto"},
 
 
-
-
 {"spa":"empleador","ita":"datore di lavoro"},
 {"spa":"empleado","ita":"dipendente"},
 {"spa":"sueldo","ita":"stipendio"},
@@ -140,10 +135,15 @@
 {"spa":"despido","ita":"licenziamento"},
 {"spa":"evaluación de desempeño","ita":"valutazione delle prestazioni"},
 {"spa":"indemnización","ita":"compenso"},
+{"spa":"contratar","ita":"assumere"},
+{"spa":"entrevista de trabajo","ita":"colloquio di lavoro"},
+{"spa":"desempleado","ita":"disoccupato"},
+{"spa":"hacer horas extras","ita":"fare gli straordinari"},
+{"spa":"empleo","ita":"impiego"},
 
 
 {"spa":"pestaña","ita":"sopracciglio"},
-{"spa":"ceja","ita":"ciglia"},
+{"spa":"ceja","ita":"ciglio"},
 {"spa":"mejilla","ita":"guancia"},
 {"spa":"bigote","ita":"baffi"},
 {"spa":"codo","ita":"gomito"},
@@ -202,7 +202,7 @@
 {"spa":"amalgamar","ita":"amalgamare"},
 {"spa":"remojar","ita":"ammollare"},
 {"spa":"asar","ita":"arrostire"},
-{"spa":"dorar","ita":"dorare"},
+{"spa":"dorar","ita":"dorare/rosolare"},
 {"spa":"cocinar a fuego lento","ita":"rosolare"},
 {"spa":"escaldar, hervir por breve tiempo","ita":"scottare"},
 {"spa":"licuar","ita":"frullare"},
@@ -231,7 +231,7 @@
 {"spa":"batir","ita":"sbattere"},
 {"spa":"espolvorear","ita":"cospargere"},
 {"spa":"salpimentar","ita":"salare e pepare"},
-{"spa":"estrujar (limón)","ita":"spremere"},
+{"spa":"exprimir (limón)","ita":"spremere"},
 {"spa":"amasar","ita":"impastare"},
 {"spa":"rallar","ita":"grattugiare"},
 {"spa":"pelar con la mano (banana)","ita":"sbucciare"},
@@ -310,7 +310,7 @@
 {"spa":"sillón de 1 cuerpo","ita":"poltrona"},
 {"spa":"comedor","ita":"sala da pranzo"},
 {"spa":"sillas","ita":"sedie"},
-
+{"spa":"alacena","ita":"credenza"},
 {"spa":"cajones","ita":"cassetti"},
 {"spa":"inodoro","ita":"water/tazza"},
 {"spa":"tirar la cadena","ita":"tirare lo scarico"},
@@ -337,7 +337,7 @@
 {"spa":"habitación estudio","ita":"studio"},
 {"spa":"estantes","ita":"mensole"},
 {"spa":"ático","ita":"soffitta"},
-{"spa":"enchufe","ita":"prese elettriche"},
+{"spa":"enchufe","ita":"presa elettrica"},
 {"spa":"interruptores","ita":"interruttori"},
 {"spa":"bombillas de luz","ita":"lampadine"},
 {"spa":"radiadores","ita":"termosifoni"},
@@ -410,5 +410,23 @@
 {"spa":"que quiere hacer cosas","ita":"volenteroso"},
 {"spa":"cobarde","ita":"vigliacco"},
 {"spa":"inepto","ita":"inetto"},
-{"spa":"perdedor/desafortunado","ita":"sfigato"}
+{"spa":"perdedor/desafortunado","ita":"sfigato"},
+
+
+{"spa":"bailarina","ita":"ballerina"},
+{"spa":"mozo","ita":"cameriere"},
+{"spa":"contable","ita":"commercialista"},
+{"spa":"albañil","ita":"muratore"},
+{"spa":"peluquero","ita":"parrucchiere"},
+{"spa":"bombero","ita":"pompiere"},
+{"spa":"monja","ita":"suora"},
+{"spa":"cura","ita":"prete"},
+{"spa":"plomero","ita":"idraulico"},
+{"spa":"carpintero","ita":"falegname"},
+{"spa":"panadero","ita":"fornaio"},
+{"spa":"carnicero","ita":"macellaio"},
+{"spa":"pescadero","ita":"pescivendolo"},
+{"spa":"joyero","ita":"gioielliere"},
+{"spa":"pastelero","ita":"pasticciere"},
+{"spa":"azafata","ita":"hostess"}
 ]
