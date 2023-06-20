@@ -209,7 +209,7 @@
 {"spa":"gratinar","ita":"gratinare"},
 {"spa":"agregar la guarnición","ita":"guarnire"},
 {"spa":"condimentar","ita":"condire"},
-{"spa":"enmantecar","ita":"imburrarre"},
+{"spa":"enmantecar","ita":"imburrare"},
 {"spa":"mezclar","ita":"mescolare"},
 {"spa":"poner en remojo","ita":"mettere a bagno"},
 {"spa":"empanar","ita":"empanare"},
@@ -270,6 +270,7 @@
 {"spa":"licuadora","ita":"frullatore"},
 {"spa":"microondas","ita":"microonde"},
 {"spa":"tostadora","ita":"tostapane"},
+{"spa":"control remoto","ita":"telecomando"},
 
 
 {"spa":"camiseta","ita":"camicetta"},
