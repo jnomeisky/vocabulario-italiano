@@ -70,6 +70,8 @@
                 refreshWord();
                 lblError.style = 'display: none;';
             } else {
+                const txtTranslatedWord = document.getElementById("txtTranslatedWord");
+                txtTranslatedWord.focus();
                 lblError.style = '';
             }
             e.preventDefault();
