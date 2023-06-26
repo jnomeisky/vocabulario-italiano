@@ -1,5 +1,4 @@
 [
-{"spa":"aprovechar","ita":"cogliere"},
 {"spa":"salto","ita":"balzo"},
 {"spa":"desafortunadamente","ita":"purtroppo"},
 {"spa":"vereda","ita":"marciapiede"},
@@ -47,6 +46,8 @@
 {"spa":"estornudo","ita":"starnuto"},
 {"spa":"bostezo","ita":"sbadiglio"},
 {"spa":"resfrío","ita":"raffreddore"},
+{"spa":"recepción de la fiesta/aperitivo","ita":"rinfresco"},
+
 
 
 {"spa":"tiza","ita":"gesso"},
@@ -186,7 +187,7 @@
 {"spa":"percha","ita":"gruccia"},
 {"spa":"tirar la basura","ita":"gettare la spazzatura"},
 {"spa":"planchar","ita":"stirare"},
-{"spa":"doblar","ita":"piegar"},
+{"spa":"doblar","ita":"piegare"},
 {"spa":"poner la mesa","ita":"apparecchiare il tavolo"},
 {"spa":"limpiar la mesa","ita":"sparecchiare"},
 
@@ -264,10 +265,11 @@
 
 {"spa":"camiseta","ita":"camicetta"},
 {"spa":"a puntos","ita":"a pois"},
-{"spa":"remera","ita":"t-shirt"},
+{"spa":"remera","ita":"maglietta"},
+{"spa":"remera de manga larga","ita":"maglia"},
 {"spa":"chaqueta","ita":"giubotto/giacca"},
 {"spa":"corbata","ita":"cravatta"},
-{"spa":"traje","ita":"abito/costume"},
+{"spa":"traje","ita":"abito"},
 {"spa":"talle","ita":"taglia"},
 {"spa":"sombrero","ita":"cappello"},
 {"spa":"rayas","ita":"righe"},
@@ -337,7 +339,7 @@
 {"spa":"persianas","ita":"tapparelle/persiane"},
 
 
-{"spa":"asiento del conductor o pasajero","ita":"sedile del conducente/passegero"},
+{"spa":"asiento del conductor/pasajero","ita":"sedile del conducente/passeggero"},
 {"spa":"palanca de cambios","ita":"leva del cambio"},
 {"spa":"cambios del auto","ita":"marce"},
 {"spa":"embrague","ita":"pedale della frizione"},
