@@ -29,9 +29,10 @@
             <input type="text" id="txtTranslatedWord" /> <br/>
             <input type="hidden" id="hdnExpectedWord"/>
             <span id="lblError" style="display: none;">ERROR!!</span><br/>
-            <input type="submit" value="Enviar" />
+            <input type="submit" value="Enviar" /><br/>
         </form>
         <br/>
+        <input type="button" id="btnOtra" value="Otra" />
         <br/>
         <br/>
 
@@ -86,6 +87,9 @@
 
         const lblExpectedWord = document.getElementById("lblExpectedWord");
         lblExpectedWord.style.display = 'none';
+
+        const btnOtra = document.getElementById("btnOtra");
+        btnOtra.addEventListener('click', refreshWord);
         
     </script>
 
